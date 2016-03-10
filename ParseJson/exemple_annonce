@@ -1,0 +1,26 @@
+{
+	"annonces" :
+	[
+		{
+			"marque" : "sony",
+			"prix" : 100,
+			"etat" : "occasion",
+			"telephone" : "0665455390",
+			"img" : "http://localhost:8888/demapi/images/4.accerLiquid.jpg"
+		},
+		{
+			"marque" : "apple",
+			"prix" : 800,
+			"etat" : "neuf",
+			"telephone" : "0665494590",
+			"img" : "http://localhost:8888/demapi/images/Best-budget.jpg"
+		},
+		{
+			"marque" : "samsung",
+			"prix" : 250,
+			"etat" : "neuf",
+			"telephone" : "0665423190",
+			"img" : "http://localhost:8888/demapi/images/61DsgvcjQuL._SL1024_.jpg"
+		}
+	]
+}
