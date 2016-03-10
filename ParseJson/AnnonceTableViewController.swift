@@ -32,7 +32,7 @@ class AnnonceTableTableViewController: UITableViewController {
 
     func updateTable()
     {
-        print("update")
+        print("up to date")
     }
     
     override func didReceiveMemoryWarning() {
