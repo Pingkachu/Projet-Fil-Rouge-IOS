@@ -8,17 +8,17 @@
         <!--Root View Controller-->
         <scene sceneID="gTl-7Z-Kej">
             <objects>
-                <tableViewController id="rfm-U9-D2P" customClass="AnnonceTableTableViewController" customModule="JSON" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="rfm-U9-D2P" customClass="AnnonceTableTableViewController" customModule="Demapi" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" id="RXm-Nd-nGS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="300" selectionStyle="default" indentationWidth="10" reuseIdentifier="annonce" rowHeight="300" id="pdT-GH-Pck" customClass="AnnonceTableViewCell" customModule="JSON" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="300"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="300" selectionStyle="default" indentationWidth="10" reuseIdentifier="annonce" rowHeight="168" id="pdT-GH-Pck" customClass="AnnonceTableViewCell" customModule="Demapi" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="168"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pdT-GH-Pck" id="Usi-xK-zt8">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="299"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="167"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Etat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHT-7M-z02">
@@ -39,15 +39,15 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hab-fo-aA7">
-                                            <rect key="frame" x="338" y="8" width="178" height="128"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQg-2j-gmg">
-                                            <rect key="frame" x="21" y="254" width="193" height="21"/>
+                                            <rect key="frame" x="21" y="85" width="201" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hab-fo-aA7">
+                                            <rect key="frame" x="230" y="8" width="170" height="128"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
