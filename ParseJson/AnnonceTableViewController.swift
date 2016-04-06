@@ -3,7 +3,7 @@
 //  JSON
 //
 //  Created by Matthieu Hannequin on 09/03/2016.
-//  Copyright © 2016 Hector. All rights reserved.
+//  Copyright © 2016 Matthieu. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,8 @@ class AnnonceTableTableViewController: UITableViewController {
         self.refreshControl = UIRefreshControl()
         self.refreshControl?.attributedTitle = NSAttributedString(string:"Update")
         self.refreshControl?.addTarget(self, action: "updateTable", forControlEvents: .ValueChanged)
-        
+
+
         startDownloadJSON()
         
 
@@ -32,7 +33,15 @@ class AnnonceTableTableViewController: UITableViewController {
 
     func updateTable()
     {
+        // test si mise à jour dispo
+        
+        // oui -> startDownloadJSON
+        // non
         print("up to date")
+        self.refreshControl?.attributedTitle? = NSAttributedString(string: "up to date")
+        
+        self.refreshControl?.endRefreshing()
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -80,8 +89,9 @@ class AnnonceTableTableViewController: UITableViewController {
                     (data, response, error) -> Void in
                     guard let data = data where error == nil else
                     {
-                        print("Download error \(error?.code)")
-                        return                 }
+                        print("Download error \(error?.code) \(url)")
+                        return
+                    }
                     if let img = UIImage(data: data)
                     {
                         dispatch_async( dispatch_get_main_queue(), { () -> Void in cell.imageAnnonce.image = img

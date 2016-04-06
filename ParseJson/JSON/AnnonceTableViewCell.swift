@@ -3,7 +3,7 @@
 //  JSON
 //
 //  Created by Matthieu Hannequin on 09/03/2016.
-//  Copyright © 2016 Hector. All rights reserved.
+//  Copyright © 2016 Matthieu. All rights reserved.
 //
 
 import UIKit

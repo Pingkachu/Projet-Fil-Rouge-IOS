@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  JSON
 //
-//  Created by Hector on 07/03/2016.
-//  Copyright © 2016 Hector. All rights reserved.
+//  Created by Matthieu Hannequin on 07/03/2016.
+//  Copyright © 2016 Matthieu. All rights reserved.
 //
 
 import UIKit

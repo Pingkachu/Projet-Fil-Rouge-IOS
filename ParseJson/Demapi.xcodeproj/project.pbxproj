@@ -44,17 +44,17 @@
 		B03438961C9062680099150A /* AnnonceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnonceTableViewController.swift; path = ../AnnonceTableViewController.swift; sourceTree = "<group>"; };
 		B03438981C906EF80099150A /* AnnonceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnonceTableViewCell.swift; sourceTree = "<group>"; };
 		B03438991C906EF80099150A /* AnnonceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnonceTableViewCell.xib; sourceTree = "<group>"; };
-		C4AD44711C8DD8A80045522D /* JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AD44711C8DD8A80045522D /* Demapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD44741C8DD8A80045522D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AD44761C8DD8A80045522D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4AD44791C8DD8A80045522D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4AD447B1C8DD8A80045522D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4AD447E1C8DD8A80045522D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4AD44801C8DD8A80045522D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4AD44851C8DD8A80045522D /* JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AD44851C8DD8A80045522D /* Demapi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demapi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD44891C8DD8A80045522D /* JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
 		C4AD448B1C8DD8A80045522D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4AD44901C8DD8A80045522D /* JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AD44901C8DD8A80045522D /* Demapi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demapi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD44941C8DD8A80045522D /* JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUITests.swift; sourceTree = "<group>"; };
 		C4AD44961C8DD8A80045522D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,9 +97,9 @@
 		C4AD44721C8DD8A80045522D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4AD44711C8DD8A80045522D /* JSON.app */,
-				C4AD44851C8DD8A80045522D /* JSONTests.xctest */,
-				C4AD44901C8DD8A80045522D /* JSONUITests.xctest */,
+				C4AD44711C8DD8A80045522D /* Demapi.app */,
+				C4AD44851C8DD8A80045522D /* Demapi.xctest */,
+				C4AD44901C8DD8A80045522D /* Demapi.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4AD44701C8DD8A80045522D /* JSON */ = {
+		C4AD44701C8DD8A80045522D /* Demapi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4AD44991C8DD8A80045522D /* Build configuration list for PBXNativeTarget "JSON" */;
+			buildConfigurationList = C4AD44991C8DD8A80045522D /* Build configuration list for PBXNativeTarget "Demapi" */;
 			buildPhases = (
 				C4AD446D1C8DD8A80045522D /* Sources */,
 				C4AD446E1C8DD8A80045522D /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = JSON;
+			name = Demapi;
 			productName = JSON;
-			productReference = C4AD44711C8DD8A80045522D /* JSON.app */;
+			productReference = C4AD44711C8DD8A80045522D /* Demapi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4AD44841C8DD8A80045522D /* JSONTests */ = {
+		C4AD44841C8DD8A80045522D /* DemapiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4AD449C1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "JSONTests" */;
+			buildConfigurationList = C4AD449C1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "DemapiTests" */;
 			buildPhases = (
 				C4AD44811C8DD8A80045522D /* Sources */,
 				C4AD44821C8DD8A80045522D /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				C4AD44871C8DD8A80045522D /* PBXTargetDependency */,
 			);
-			name = JSONTests;
+			name = DemapiTests;
 			productName = JSONTests;
-			productReference = C4AD44851C8DD8A80045522D /* JSONTests.xctest */;
+			productReference = C4AD44851C8DD8A80045522D /* Demapi.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4AD448F1C8DD8A80045522D /* JSONUITests */ = {
+		C4AD448F1C8DD8A80045522D /* DemapiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4AD449F1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "JSONUITests" */;
+			buildConfigurationList = C4AD449F1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "DemapiUITests" */;
 			buildPhases = (
 				C4AD448C1C8DD8A80045522D /* Sources */,
 				C4AD448D1C8DD8A80045522D /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				C4AD44921C8DD8A80045522D /* PBXTargetDependency */,
 			);
-			name = JSONUITests;
+			name = DemapiUITests;
 			productName = JSONUITests;
-			productReference = C4AD44901C8DD8A80045522D /* JSONUITests.xctest */;
+			productReference = C4AD44901C8DD8A80045522D /* Demapi.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4AD446C1C8DD8A80045522D /* Build configuration list for PBXProject "JSON" */;
+			buildConfigurationList = C4AD446C1C8DD8A80045522D /* Build configuration list for PBXProject "Demapi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4AD44701C8DD8A80045522D /* JSON */,
-				C4AD44841C8DD8A80045522D /* JSONTests */,
-				C4AD448F1C8DD8A80045522D /* JSONUITests */,
+				C4AD44701C8DD8A80045522D /* Demapi */,
+				C4AD44841C8DD8A80045522D /* DemapiTests */,
+				C4AD448F1C8DD8A80045522D /* DemapiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		C4AD44871C8DD8A80045522D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4AD44701C8DD8A80045522D /* JSON */;
+			target = C4AD44701C8DD8A80045522D /* Demapi */;
 			targetProxy = C4AD44861C8DD8A80045522D /* PBXContainerItemProxy */;
 		};
 		C4AD44921C8DD8A80045522D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4AD44701C8DD8A80045522D /* JSON */;
+			target = C4AD44701C8DD8A80045522D /* Demapi */;
 			targetProxy = C4AD44911C8DD8A80045522D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,8 +424,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.JSON;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.demapi;
+				PRODUCT_NAME = Demapi;
 			};
 			name = Debug;
 		};
@@ -435,8 +435,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.JSON;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.demapi;
+				PRODUCT_NAME = Demapi;
 			};
 			name = Release;
 		};
@@ -447,8 +447,8 @@
 				INFOPLIST_FILE = JSONTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.JSONTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON.app/JSON";
+				PRODUCT_NAME = Demapi;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demapi.app/Demapi";
 			};
 			name = Debug;
 		};
@@ -459,8 +459,8 @@
 				INFOPLIST_FILE = JSONTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.JSONTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON.app/JSON";
+				PRODUCT_NAME = Demapi;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demapi.app/Demapi";
 			};
 			name = Release;
 		};
@@ -470,7 +470,7 @@
 				INFOPLIST_FILE = JSONUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.JSONUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demapi;
 				TEST_TARGET_NAME = JSON;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +482,7 @@
 				INFOPLIST_FILE = JSONUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WuthaInc.JSONUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demapi;
 				TEST_TARGET_NAME = JSON;
 				USES_XCTRUNNER = YES;
 			};
@@ -491,7 +491,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4AD446C1C8DD8A80045522D /* Build configuration list for PBXProject "JSON" */ = {
+		C4AD446C1C8DD8A80045522D /* Build configuration list for PBXProject "Demapi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4AD44971C8DD8A80045522D /* Debug */,
@@ -500,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4AD44991C8DD8A80045522D /* Build configuration list for PBXNativeTarget "JSON" */ = {
+		C4AD44991C8DD8A80045522D /* Build configuration list for PBXNativeTarget "Demapi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4AD449A1C8DD8A80045522D /* Debug */,
@@ -509,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4AD449C1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "JSONTests" */ = {
+		C4AD449C1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "DemapiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4AD449D1C8DD8A80045522D /* Debug */,
@@ -518,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4AD449F1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "JSONUITests" */ = {
+		C4AD449F1C8DD8A80045522D /* Build configuration list for PBXNativeTarget "DemapiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4AD44A01C8DD8A80045522D /* Debug */,

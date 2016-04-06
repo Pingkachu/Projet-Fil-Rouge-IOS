@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4AD44701C8DD8A80045522D"
-               BuildableName = "JSON.app"
-               BlueprintName = "JSON"
-               ReferencedContainer = "container:JSON.xcodeproj">
+               BuildableName = "Demapi.app"
+               BlueprintName = "Demapi"
+               ReferencedContainer = "container:Demapi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4AD44841C8DD8A80045522D"
-               BuildableName = "JSONTests.xctest"
-               BlueprintName = "JSONTests"
-               ReferencedContainer = "container:JSON.xcodeproj">
+               BuildableName = "Demapi.xctest"
+               BlueprintName = "DemapiTests"
+               ReferencedContainer = "container:Demapi.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4AD448F1C8DD8A80045522D"
-               BuildableName = "JSONUITests.xctest"
-               BlueprintName = "JSONUITests"
-               ReferencedContainer = "container:JSON.xcodeproj">
+               BuildableName = "Demapi.xctest"
+               BlueprintName = "DemapiUITests"
+               ReferencedContainer = "container:Demapi.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4AD44701C8DD8A80045522D"
-            BuildableName = "JSON.app"
-            BlueprintName = "JSON"
-            ReferencedContainer = "container:JSON.xcodeproj">
+            BuildableName = "Demapi.app"
+            BlueprintName = "Demapi"
+            ReferencedContainer = "container:Demapi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4AD44701C8DD8A80045522D"
-            BuildableName = "JSON.app"
-            BlueprintName = "JSON"
-            ReferencedContainer = "container:JSON.xcodeproj">
+            BuildableName = "Demapi.app"
+            BlueprintName = "Demapi"
+            ReferencedContainer = "container:Demapi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4AD44701C8DD8A80045522D"
-            BuildableName = "JSON.app"
-            BlueprintName = "JSON"
-            ReferencedContainer = "container:JSON.xcodeproj">
+            BuildableName = "Demapi.app"
+            BlueprintName = "Demapi"
+            ReferencedContainer = "container:Demapi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
